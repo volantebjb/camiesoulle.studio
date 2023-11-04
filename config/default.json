@@ -1,0 +1,21 @@
+{
+  "shop": {
+    "currency": "PHP",
+    "language": "en",
+    "weightUnit": "kg",
+    "timezone": "UTC"
+  },
+  "system": {
+    "theme": "soulle"
+  },
+  "themeConfig": {
+    "headTags": {
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/themes/soulle/public/camiesoulle.png"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('themes/soulle/fonts/Inter-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+html body {
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: "ss03" 1, "cv02" 1, "cv11" 1;
+  font-variation-settings: "slnt" 0;
+}
