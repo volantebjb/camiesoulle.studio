@@ -1,14 +1,20 @@
 {
   "name": "camiesoulle.studio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "setup": "evershop install",
+    "build": "evershop build --skip-minify",
     "start": "evershop start",
-    "build": "evershop build",
-    "dev": "evershop dev"
+    "user:create": "evershop user:create",
+    "user:changePassword": "evershop user:changePassword"
   },
+  "workspaces": [
+    "extensions/*"
+  ],
+  "author": "Barron Joshua Volante",
+  "license": "MIT",
   "dependencies": {
-    "@evershop/evershop": "1.0.0"
+    "@evershop/evershop": "^1.0.0-rc.8"
   }
 }
